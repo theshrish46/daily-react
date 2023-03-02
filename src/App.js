@@ -1,15 +1,20 @@
-import React from "react";
-import Header from "./components/Header";
-import "./styles/App.css";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
 
+import './style/App.css'
 
-
-function App({name, age}) {
+const App = () => {
   return (
     <div>
-      <Header />
+      <Router>
+       <Header />
+        <Routes>
+          <Route />
+        </Routes>
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
