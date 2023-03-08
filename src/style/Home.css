@@ -1,0 +1,24 @@
+
+
+form {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+input {
+    width: 25%;
+    font: 500 1.5rem 'Hack';
+    padding: 1rem;
+    border-radius: 5px;
+    border-color: rgba(189, 185, 185, 0.747);
+}
+
+p {
+    font: 500 2rem 'hack';
+    padding: 0.25rem;
+}
